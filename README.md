@@ -58,7 +58,7 @@ The dashboard can be viewed on tablets and mobile devices, but it’s not optimi
 ## Files Included
 
 - `index.html` — the interactive dashboard  
-- `salary_plotly.py` — annotated source script  
+- `salary_plotly.py` — source script  
 - `salary_single_insights.csv` — insight text per category
 - `salary_multi_insights.csv` - insight text per category
 -  Actual CSV input files are suppressed for privacy reasons 
