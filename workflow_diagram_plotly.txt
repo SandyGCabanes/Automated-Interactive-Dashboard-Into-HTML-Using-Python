@@ -1,0 +1,61 @@
+┌───────────────────────┐                                                                  
+│ Start - import plotly │                                                                  
+│       pandas, os      │                                                                  
+│                       │                                                                  
+└───────────────────────┘                                                                  
+            │                                                                              
+            │                                                                              
+            ▼                                                                              
+┌───────────────────────┐       ┌───────────────────────┐                                  
+│     Load csv files    │       │   Merge with multi-   │                                  
+│   Single - response   │──────►│     response csvs     │                                  
+│                       │       │      df_merged        │                                  
+└───────────────────────┘       └───────────────────────┘                                  
+            │                               │                                              
+            │                               │                                              
+            ▼                               ▼                                              
+┌───────────────────────┐       ┌───────────────────────┐                                  
+│   Define categories   │       │   Define categories   │                                  
+│    Aggregate counts   │       │   Aggregate mentions  │                                  
+│                       │       │                       │                                  
+└───────────────────────┘       └───────────────────────┘                                  
+            │                               │                                              
+            │                               │                                              
+            ▼                               ▼                                              
+┌───────────────────────┐       ┌───────────────────────┐                                  
+│   Build single-resp   │       │  Build multi-response │                                  
+│   plotly chart        │       │  plotly chart         │                                  
+│   stacked bar         │       │  stacked bar          │                                  
+└───────────────────────┘       └───────────────────────┘                                  
+            │                               │                                              
+            │                               │                                              
+            ▼                               ▼                                              
+┌───────────────────────┐       ┌───────────────────────┐                                  
+│Create traces, dropdown│       │Create traces, dropdown│                                  
+│buttons (mask, layout) │       │buttons (mask, layout) │                                  
+│Initial layout         │       │    Initial layout     │                                  
+└───────────────────────┘       └───────────────────────┘                                  
+            │                               │                                              
+            │                               │                                              
+            ▼                               ▼                                              
+┌───────────────────────┐       ┌───────────────────────┐                                  
+│     Export as html    │       │     Export as html    │                                  
+│  salary_chart_single  │       │   salary_chart_multi  │                                  
+│                       │       │                       │                                  
+└───────────────────────┘       └───────────────────────┘                                  
+            │                               │                                              
+            ┴───────────────────────────────┴                                              
+                            ▼                                                              
+                ┌───────────────────────┐                                                  
+                │  Export dashboard as  │                                                  
+                │  shareable html file  │                                                  
+                │                       │                                                  
+                └───────────────────────┘                                                  
+                            │                                                              
+                            │                                                              
+                            ▼                                                              
+                ┌───────────────────────┐                                                  
+                │                       │                                                  
+                │         End           │                                                  
+                │                       │                                                  
+                └───────────────────────┘
