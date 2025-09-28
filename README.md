@@ -1,5 +1,6 @@
 # Automated-Interactive-Dashboard-Into-HTML-Using-Python
 ## Salary Insights Dashboard (Python to HTML)
+![demo](demo_720.gif)
 
 This dashboard shows what roles, industries, tools, skills, and demographics are most common within each salary range. It’s designed for stakeholders who want to explore compensation patterns interactively—no setup required.
 
