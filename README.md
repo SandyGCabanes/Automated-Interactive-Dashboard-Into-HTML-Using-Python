@@ -20,7 +20,7 @@ Built in Python using Plotly, the chart is fully self-contained and runs in any 
 
 This dashboard is delivered as a single HTML file. Stakeholders can:
 
-- Open it directly via a link [e.g. GitHub Pages](link here) or any internal portal  
+- Open it directly via a link [e.g. GitHub Pages]([link here](https://sandygcabanes.github.io/Automated-Interactive-Dashboard-Into-HTML-Using-Python/)) or any internal portal  
 - Download the file and view it in any browser—no setup required  
 
 The chart runs locally in Chrome, Edge, Safari, or Firefox. It’s optimized for desktop viewing and presentation use.
